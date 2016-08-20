@@ -1,0 +1,37 @@
+INTRODUCTION:
+
+Introducing a new way to think about website security, beyond that of the traditional cleartext .htaccess username and password, beyond that of the cookie, and password hash.
+
+Introducing... The Secure Sockets Layer?
+
+Hey, now wait a second. That's been around for yonks! Yer, sure; everyone's heard of SSL... So what's the deal?
+
+Well, that's just it:
+How many of you actually use SSL to do client authentication with your internal administration websites, your statistics and reporting websites?
+
+What do you use then? Clear-text passwords? Ok, so you hash them when you pass them laboriously around from page to page, or worse - have them sitting in cookies. How lame is that? You know that the very first time they are still going over the net in cleartext, but you try to fool yourself into thinking that's just one time, how lucky would a hacker have to be to intercept that exact packet... Ha, you laugh nervously at those wicked potential hackers... Besides, we're not even that important; We're not a Microsoft, or a Yahoo... Small fry...
+
+But you know... You know you could be doing a better job of security... If only there was a simple way to implement some Certificate Authority... But alas, they are all really complex and stuff...
+
+Introducing... (this time for real)....  PHP-CA! (Yahhh, the crowd goes wild etc, etc...)
+
+
+MOTIVATION FOR THIS PROJECT:
+
+Amongst the current range of open source CA's, no extremely easy to setup and configure web-based offerings exist. I currently have a version of a (at the moment, basic) easy to use Certificate Authority that can be installed, and configured in a matter of minutes under an Apache/PHP webserver, and I would very much like to see to the evolution of this product under an open-source environment.
+
+This project is intended to be useful to commercial organizations that want to quickly and easily configure a strong security solution to the standard username and password website access, for internal administration sites that do not require trusted root authority certified keys, but do requre a high level of network security.
+
+In the process of developing this project, the intent is to make the application and retrieval of certificates as automatic as possible with the initial goal to have no need for physical administration of the system after the inital installation and configuration is done.
+
+
+SO WHAT'S THE GO?:
+
+Sounds good? What if I told you that you could have it running in 10 minutes, and have your first client certifice a minute after that???  "Ha, I laugh at you silly lies." or "That's impossible!"
+
+Nope, it's not a lie, or impossible... Really, how complex is it?  Psh, I had my first CA setup as a bunch of shell scripts... Easy peazy, but a lot of work to maintain... This new one though, It practically takes care of itself! Almost no maintenance.
+
+
+Look, the only way you'll know it to install it and find out... I promise that it won't take you more than 30 minutes.
+
+

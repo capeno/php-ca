@@ -1,0 +1,26 @@
+Installation instructions are still a little hazy here...
+
+Prerequisites:
+ -	A Windows / Linux / FreeBSD operating system.
+ -	An installed and working Apache web server. (others may work)
+ -	An installed and working PHP module for the Apache server.
+ -	The OpenSSL extention compiled in or dynamically linked into PHP.
+If you want to support Netscape SPKAC Client Certificates:
+ -	OpenSSL command line tool. (optional)
+If you want people with old versions of IE to work:
+ -  xenroll.dll specifically version 5.131.3659.0 (optional)
+ 		Place this file in the certcontrol directory.
+		See the file ./certcontrol/README for more info.
+	
+Basically:
+ -	Dump the project into a web accessible directory
+ -	Set up the environment variable OPENSSL_CONF to point to the
+	directory that the webfiles are in + "/openssl/openssl.conf"
+		(If you are using Windows, you will need to set this
+		in Control Panel/System and reboot, Unix users can get
+		away with a SetEnv in the httpd.conf)
+ -	Recursively change ownership (to the web user) of:
+ 		./openssl
+		./config
+
+Goto the main page and do the initial configuration for the CA.

@@ -1,0 +1,8 @@
+INTRO:
+This project is a fork of PHP-CA (http://php-ca.sourceforge.net/) modified and updated to fit the most common needs withing the Infrastructure department of an organziation.
+
+TODO:
+- Develop CRL functionality which might be dificult to implement once you started using this tool (the ones who understand pki know what I'm talking about when it comes to replacing root certificates.
+- Develop intermediate CA options to facilitate the previous feature.
+
+For any further questions or thoughts just drop a mail to info <at> capeno <dot> com.
