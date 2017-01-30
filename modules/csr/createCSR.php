@@ -72,7 +72,7 @@ elseif ($sanFile && is_file($sanFile)) {
 //}
 
 ?>
-<h1>Creating initial CA certificate</h1>
+<h1>Creating initial CSR certificate</h1>
 
 <p>
 This is the point where we will generate the Certificare Signing Request. The software will generate a key pair (a public key and a matching private key).
